@@ -1,0 +1,39 @@
+.card{
+    display: flex;
+    padding: 1.5rem 0;
+}
+
+.card img{
+    margin-right: 2rem;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: .5rem;
+}
+
+.location {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.location .icon{
+    color: rgb(226, 65, 92);
+    padding-right: .2rem;
+    font-size: 1rem;
+}
+
+.location .maps-link{
+    margin-left: .5rem;
+    font-size: 1rem;
+    color: rgb(82, 79, 79);
+}
+
+.card--content .title{
+    padding: .5rem 0;
+    font-size: 1.8rem;
+}
+
+.dates{
+    font-weight: 600;
+    padding-bottom: .4rem;
+}

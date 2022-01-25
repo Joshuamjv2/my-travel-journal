@@ -1,0 +1,12 @@
+nav{
+    text-align: center;
+    padding: 1rem;
+    margin: .5rem .5rem;
+    border-radius: .5rem .5rem 0 0;
+    background-color: rgb(226, 65, 92);
+}
+
+.nav--content{
+    color: whitesmoke;
+    
+}

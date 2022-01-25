@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Card from './components/Card';
+import data from './data'
+import Navbar from './components/Navbar';
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faGlobe, faMapPin } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faMapPin, faGlobe)
 
 function App() {
+  const new_data = data.map(item => 
+      <Card key={item.title} {...item}/>
+)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar/>
+      <div className="section">
+          {new_data}
+      </div> 
     </div>
   );
 }
