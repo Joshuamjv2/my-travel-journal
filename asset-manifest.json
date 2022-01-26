@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/my-travel-journal/static/css/main.48c6d016.css",
-    "main.js": "/my-travel-journal/static/js/main.b825ab4d.js",
+    "main.css": "/my-travel-journal/static/css/main.5d464878.css",
+    "main.js": "/my-travel-journal/static/js/main.8ac7b047.js",
     "static/js/787.39019643.chunk.js": "/my-travel-journal/static/js/787.39019643.chunk.js",
     "static/media/Uganda.jpg": "/my-travel-journal/static/media/Uganda.ff20e7f01e6e8f647ef2.jpg",
     "static/media/mt-fuji2.jpg": "/my-travel-journal/static/media/mt-fuji2.fde2bcaad39e7cee9e5c.jpg",
     "static/media/sydney.jpg": "/my-travel-journal/static/media/sydney.5811b914872f0d9ddfa5.jpg",
     "index.html": "/my-travel-journal/index.html",
-    "main.48c6d016.css.map": "/my-travel-journal/static/css/main.48c6d016.css.map",
-    "main.b825ab4d.js.map": "/my-travel-journal/static/js/main.b825ab4d.js.map",
+    "main.5d464878.css.map": "/my-travel-journal/static/css/main.5d464878.css.map",
+    "main.8ac7b047.js.map": "/my-travel-journal/static/js/main.8ac7b047.js.map",
     "787.39019643.chunk.js.map": "/my-travel-journal/static/js/787.39019643.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48c6d016.css",
-    "static/js/main.b825ab4d.js"
+    "static/css/main.5d464878.css",
+    "static/js/main.8ac7b047.js"
   ]
 }
